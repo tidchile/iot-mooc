@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'charts#index'
+
    resources :entities, except: [:new, :edit] do 
     resources :attributes, except: [:new, :edit] do
       resources :measures, except: [:new, :edit]

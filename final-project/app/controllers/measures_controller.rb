@@ -1,6 +1,7 @@
 class MeasuresController < ApplicationController
   before_action :set_measure, only: [:show, :update, :destroy]
   before_action :set_attribute, only: [:index, :create]
+  layout nil
 
   # GET /measures
   # GET /measures.json
@@ -20,7 +21,7 @@ class MeasuresController < ApplicationController
       @measures = @attribute.measures.all
     end
 
-    render json: @measures
+    render json: @measures.to_json(only:[:value,:created_at])
   end
 
   # GET /measures/1
