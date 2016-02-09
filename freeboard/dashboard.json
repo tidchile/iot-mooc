@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [],
+	"datasources": [
+		{
+			"name": "test",
+			"type": "JSON",
+			"settings": {
+				"url": "http://localhost:1026/v1/contextEntities/Car1",
+				"use_thingproxy": false,
+				"refresh": 5,
+				"method": "GET",
+				"headers": [
+					{
+						"name": "Accept",
+						"value": "application/json"
+					}
+				]
+			}
+		}
+	],
+	"columns": 3
+}
