@@ -1,0 +1,1 @@
+Import the file iot-mooc.postman_collection on the Postman tool.
