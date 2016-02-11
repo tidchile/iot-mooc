@@ -15,11 +15,9 @@ class Orion
 {
 public: 
 	Orion(void);
-	void Post(String _id, String _type, String _name1, String _name2);
+	void Post(String _id, String _type, String _name1, String _name2, String _valor1, String _valor2);
 	void Get(String _id, String _type);
-	void Put(String _id, String _type, String _name1, String _name2, String valor);
-	void send_AT_command(String _request, int _timeout);
-	void send_AT_command2(String _request);
+	void Put(String _id, String _type, String _name1, String _name2, String _valor1, String _valor2);
 	void AT();
 	void Reset();
 	void Modo();
