@@ -8,7 +8,8 @@ echo -e "[Fiware]\nname=FIWARE repository\nbaseurl=http://repositories.testbed.f
 echo -e "[mongodb-org-3.0]\nname=MongoDB Repository\nbaseurl=https://repo.mongodb.org/yum/redhat/\$releasever/mongodb-org/3.0/x86_64/\ngpgcheck=0\nenabled=1" | sudo tee /etc/yum.repos.d/mongodb-org-3.0.repo
 
 # Instalación de mongodb y orion(ContextBroker)
-sudo yum -y install mongodb-org contextBroker
+sudo yum -y install mongodb-org
+sudo yum -y install contextBroker-0.27.0-1
 
 # Se habilita el inicio de los servicios automáticamente después de un reinicio
 sudo chkconfig mongodb-org on
