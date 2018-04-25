@@ -16,7 +16,7 @@ Orion orion;                                        //Crear Objeto
   
 #define ssid      "ssid"                            //Nombre de Red Wifi
 #define password  "password"                        //Contraseña de Red Wifi
-#define port      "80"                              //Puero a conectar
+#define port      "1026"                            //Puero a conectar
 
 #define id        "id"                              //Identificador de Instancia
 #define type      "type"                            //Tipo de la Instancia

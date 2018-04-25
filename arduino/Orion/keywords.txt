@@ -16,7 +16,8 @@ Post		KEYWORD2
 Get		KEYWORD2
 Put		KEYWORD2
 Iniciar		KEYWORD2
-Conectar	KEYWORD2
+Conectar		KEYWORD2
+MostrarIP	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
